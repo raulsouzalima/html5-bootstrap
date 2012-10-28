@@ -13,3 +13,11 @@ puts "\n\n"
 puts "Deleting main.rb"
 system "rm main.rb"
 puts "Done!"
+
+puts "\n\n"
+
+puts "Initializing git"
+system "git init"
+system "git add ."
+system "git commit -am 'Initial commit'"
+puts "Done!"
