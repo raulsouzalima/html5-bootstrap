@@ -21,3 +21,7 @@ system "git init"
 system "git add ."
 system "git commit -am 'Initial commit'"
 puts "Done!"
+
+puts "\n\n"
+
+puts "Success! Now, go work!"
