@@ -14,13 +14,15 @@ puts "Deleting main.rb and files directory"
 system "rm -rf main.rb files"
 puts "Done!"
 
-puts "\n\n"
+unless ARGV.any? {|option| ['-G', '--skip-git'].include?(option) }
+  puts "\n\n"
 
-puts "Initializing git"
-system "git init"
-system "git add ."
-system "git commit -am 'Initial commit'"
-puts "Done!"
+  puts "Initializing git"
+  system "git init"
+  system "git add ."
+  system "git commit -am 'Initial commit'"
+  puts "Done!"
+end
 
 puts "\n\n"
 
