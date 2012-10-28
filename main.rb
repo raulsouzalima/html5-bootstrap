@@ -10,8 +10,8 @@ puts "Done!"
 
 puts "\n\n"
 
-puts "Deleting main.rb"
-system "rm main.rb"
+puts "Deleting main.rb and files directory"
+system "rm -rf main.rb files"
 puts "Done!"
 
 puts "\n\n"
