@@ -6,7 +6,7 @@ Simple html5 bootstrap for my personal projects
 ### How to use
 ```
 $ git clone git@github.com:raulsouzalima/html5-bootstrap.git your-path-name
-$ cd your-path name
+$ cd your-path-name
 $ ruby main.rb
 ```
 
