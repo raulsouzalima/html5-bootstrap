@@ -1,5 +1,5 @@
 puts "Deleting old git files and README"
-system "rm -Rf .gitignore .git README"
+system "rm -Rf .gitignore .git README.md"
 puts "Done!"
 
 puts "\n\n"
